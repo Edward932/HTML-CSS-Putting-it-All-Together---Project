@@ -1,0 +1,59 @@
+<!--Form/survey page-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<!--1. Nav bar-->
+<div class="head_links">
+    <form class="nav_button" action="../index.html">
+        <input type="submit" value="Home">
+    </form>
+    <form class="nav_button" action="form.html">
+        <input type="submit" value="Survey">
+    </form>
+    <form class="nav_button" action="links.html">
+        <input type="submit" value="Usefull Links">
+    </form>
+    <form class="nav_button" action="how_to.html">
+        <input type="submit" value="How To">
+    </form>
+</div>
+
+<!--2. Title-->
+<div>
+    <h2>Please complete the following survey on mitochondria health training</h2>
+</div>
+
+<!--3. Survey-->
+<form action="/form-handling-url" method="post">
+<fieldset>
+    <legend>Mitochondria Health Training Survey</legend>
+
+<div>
+    <label for="zone2">How much zone 2 traning per week do you do?</label>
+    <input type="text" id="zone2" name="zone2_time">
+</div>
+
+<div>
+    <label for="interval">How much interval training per week do you do?</label>
+    <input type="text" id="interval" name="interval_time">
+</div>
+
+<div>
+    <input type="checkbox" id="do_more" value="do_more_x">
+    <label for="do_more">Are you planning on increasing your weekly training?</label>
+</div>
+
+<div>
+    <label for="comments">Do you do anything else for your mitochondria health?</label>
+    <textarea id="comments" name="comments"></textarea>
+</div>
+
+</fieldset>
+</form>
+
+
+</html>

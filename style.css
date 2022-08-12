@@ -1,0 +1,37 @@
+.head_links {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 1%;
+    background-color:aliceblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-indent: 3%;
+    font-family:'Courier New', Courier, monospace
+}
+
+.body {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+
+.z2img > a {
+    Height: 200px;
+    width: auto;
+    display: inline-flex;
+}
+
+.int_train > a {
+    Height: 200px;
+    width: auto;
+    display: inline-flex;
+}
